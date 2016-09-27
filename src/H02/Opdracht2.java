@@ -19,11 +19,13 @@ public class Opdracht2 extends Applet {
 
     //een (lege) methode die de Applet initialiseert
     public void init() {
-        setBackground(Color.blue);
+        setBackground(Color.white);
     }
     //een methode die de inhoud van het scherm tekent
     public void paint(Graphics g) {
-        g.setColor(Color.yellow);
-        g.drawString("Roman", 50, 60 );
+        g.setColor(Color.blue);
+        g.drawString("Roman", 50, 50 );
+        g.setColor(Color.red);
+        g.drawString("Anveri", 50, 60 );
     }
 }
